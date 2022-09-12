@@ -1,0 +1,65 @@
+header {
+    background-color: var(--violeta);
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav {
+    margin-right: 60px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul li {
+    width: 110px;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li a {
+    display: block;
+    width: 100%;
+    line-height: 50px;
+    font-size: 12px;
+}
+
+.estiloNoHover {
+    color: #ffffff66;
+    background: transparent;
+    border-left: 0.5px solid #ffffff4d;
+    transition: all 0.3s ease;
+}
+
+.estiloHover {
+    color: #fff;
+    background-color: var(--rosa);
+    border-left: 0.5px solid var(--rosa);
+    transition: all 0.3s ease;
+}
+
+button {
+    position: absolute;
+    top: 11px;
+    left: 30px;
+    height: 28px;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: var(--violeta);
+    border: 2px solid var(--violeta);
+    background: #fff;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: var(--rosa);
+    border-color: var(--rosa);
+    color: #fff;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
